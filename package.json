@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-ooyala-sdk",
+  "version": "0.0.1",
+  "description": "The NODE JS SDK is a client module for our V2 API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.services.ooyala.net:fortino/nodejs-ooyala-sdk.git"
+  },
+  "keywords": [
+    "ooyala",
+    "sdk"
+  ],
+  "author": "Fortino Gutierrez",
+  "license": "ISC",
+  "dependencies": {
+    "crypto": "0.0.3",
+    "http": "0.0.0",
+    "underscore": "^1.8.3"
+  }
+}
