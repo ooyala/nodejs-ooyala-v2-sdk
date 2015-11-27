@@ -1,7 +1,7 @@
 {
-  "name": "nodejs-ooyala-sdk",
+  "name": "nodejs-ooyala-sdk-v2",
   "version": "0.0.1",
-  "description": "The NODE JS SDK is a client module for our V2 API.",
+  "description": "The NODE JS SDK is a client module for Ooyala V2 API.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,7 +15,7 @@
     "sdk"
   ],
   "author": "Fortino Gutierrez",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "crypto": "0.0.3",
     "http": "0.0.0",
