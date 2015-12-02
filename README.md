@@ -12,7 +12,7 @@ var Ooyala = require("nodejs-ooyala-sdk");
 var _api_secret_key = 'foo secret';
 var _api_key = 'foo';
 
-ooyala = new Ooyala(_api_secret_key, _api_key);
+ooyala = new Ooyala(_api_key, _api_secret_key);
 
 path = "/v2/assets";
 params = {"where": "asset_type='remote_asset'", "limit": 500};
@@ -32,7 +32,7 @@ var Ooyala = require("nodejs-ooyala-sdk");
 var _api_secret_key = 'foo secret';
 var _api_key = 'foo';
 
-ooyala = new Ooyala(_api_secret_key, _api_key);
+ooyala = new Ooyala(_api_key, _api_secret_key);
 
 path = "/v2/assets";
 params = {};
@@ -44,3 +44,4 @@ onError = function(error){console.log(error)};
 promise = ooyala.get(path, params, body);
 
 promise.then(onSuccess, onError);
+```
