@@ -18,7 +18,6 @@
   "license": "MIT",
   "dependencies": {
     "crypto": "0.0.3",
-    "http": "0.0.0",
-    "underscore": "^1.8.3"
+    "url": "^0.11.0"
   }
 }
