@@ -1,5 +1,5 @@
 {
-  "name": "nodejs-ooyala-sdk",
+  "name": "ooyala-v2-sdk",
   "version": "0.0.1",
   "description": "The NODE JS SDK is a client module for our V2 API.",
   "main": "index.js",
