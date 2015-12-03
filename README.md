@@ -1,4 +1,4 @@
-NODE.JS wrapper for OoyalaAPI client API V2
+#NODE.JS wrapper for OoyalaAPI client API V2
 
 
 ##Usage
