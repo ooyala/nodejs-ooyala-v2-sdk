@@ -12,13 +12,13 @@ var Ooyala = require("nodejs-ooyala-sdk");
 var _api_secret_key = 'foo secret';
 var _api_key = 'foo';
 
-ooyala = new Ooyala(_api_key, _api_secret_key);
+var ooyala = new Ooyala(_api_key, _api_secret_key);
 
-path = "/v2/assets";
-params = {"where": "asset_type='remote_asset'", "limit": 500};
-body = {};
-onSuccess = function(data){console.log(data)};
-onError = function(error){console.log(error)};
+var path = "/v2/assets";
+var params = {"where": "asset_type='remote_asset'", "limit": 500};
+var body = {};
+var onSuccess = function(data){console.log(data)};
+var onError = function(error){console.log(error)};
 
 ooyala.get(path, params, body, onSuccess, onError)
 
@@ -32,16 +32,14 @@ var Ooyala = require("nodejs-ooyala-sdk");
 var _api_secret_key = 'foo secret';
 var _api_key = 'foo';
 
-ooyala = new Ooyala(_api_key, _api_secret_key);
+var ooyala = new Ooyala(_api_key, _api_secret_key);
 
-path = "/v2/assets";
-params = {};
-body = {};
+var path = "/v2/assets";
+var params = {};
+var body = {};
 
-onSuccess = function(data){console.log(data)};
-onError = function(error){console.log(error)};
+var onSuccess = function(data){console.log(data)};
+var onError = function(error){console.log(error)};
 
-promise = ooyala.get(path, params, body);
-
-promise.then(onSuccess, onError);
+ooyala.get(path, params, body).then(onSuccess, onError);
 ```
