@@ -7,7 +7,7 @@ This sdk can be used with normal callbacks pattern or with a promise pattern.
 ###Callback pattern:
 
 ```
-var Ooyala = require("nodejs-ooyala-sdk");
+var Ooyala = require('ooyala-v2-sdk');
 
 var _api_secret_key = 'foo secret';
 var _api_key = 'foo';
@@ -27,7 +27,7 @@ ooyala.get(path, params, body, onSuccess, onError)
 ###Promises pattern
 
 ```
-var Ooyala = require("nodejs-ooyala-sdk");
+var Ooyala = require('ooyala-v2-sdk');
 
 var _api_secret_key = 'foo secret';
 var _api_key = 'foo';
