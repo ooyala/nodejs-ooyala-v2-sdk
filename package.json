@@ -1,6 +1,6 @@
 {
   "name": "ooyala-v2-sdk",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "The NODE JS SDK is a client module for Ooyala V2 API.",
   "main": "index.js",
   "scripts": {
